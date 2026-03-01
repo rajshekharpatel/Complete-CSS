@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <style>
+        /* universal Selectors */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* Class Selectors */
+        .red{
+            background-color: red;
+        }
+        /* ID selectors */
+        #green{
+            background-color: green;
+        }
+        /* Child Selectors */
+        div > p{
+            color: blue;
+            background-color: aqua;
+        }
+        /* Pseudo selectors */
+    </style>
+    <!-- this is a class selector -->
+    <div class="red"> 
+        I am a div.
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, dicta! Beatae ipsam alias reiciendis vitae omnis in eum modi obcaecati impedit. Officia quis doloremque tempore unde ab vel, commodi sapiente suscipit porro consectetur autem!</p>
+        </div>
+    </div>
+    <!-- this is a ID Selectors -->
+    <div id="green">
+        I am another div.
+    </div>
+
+
+</body>
+</html>
