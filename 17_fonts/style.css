@@ -1,0 +1,18 @@
+
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+h2{
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    /* text-decoration-style: dashed */
+    text-decoration-thickness: 7px;
+}
+
+.lorem{
+    border: 2px solid red;
+    width: 145px;
+    word-break: break-all;
+}
