@@ -1,0 +1,16 @@
+/* The specificity of this selctors is 1 */
+h1{
+    color: blue;
+}
+/* The specificity of this selctors is 10 */
+.yellow{
+    color: yellow;
+}
+/* The specificity of this selctors is 10 */
+.cred{
+    color: red;
+}
+/* The specificity of this selctors is 10 */
+.purple{
+    color: purple;
+}
