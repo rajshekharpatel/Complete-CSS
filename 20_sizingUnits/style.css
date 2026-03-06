@@ -1,0 +1,31 @@
+.box{
+    box-sizing: border-box;
+    border: 2px solid black;
+    /* width: 2048px; */
+    width: 80vw;
+    margin: auto;
+    background-color: aqua;
+}
+.container{
+    box-sizing: border-box;
+    border: 2px solid black;
+    /* width: 2048px; */
+    width: 80vw;
+    margin: 50px auto;
+    min-height: 80vh;
+    font-size: 18px;
+    background-color: aqua;
+}
+.container > div{
+    font-size: 25px;
+    border: 2px solid red;
+    width: 50%;
+}
+.mycont{
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin:  50px;
+    width: 80vh;
+    font-size: 22px;
+    background-color: brown;
+}
