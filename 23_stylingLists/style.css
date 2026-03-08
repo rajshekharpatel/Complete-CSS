@@ -1,0 +1,13 @@
+nav ul li{
+    /* background-color: yellow; */
+    /* list-style: devanagari; */
+    /* list-style-position: inside; */
+    /* border: 2px solid black; */
+    /* list-style: square; */
+    list-style: none;
+}
+
+ul li{
+    display: inline;
+    padding: 23px;
+}
