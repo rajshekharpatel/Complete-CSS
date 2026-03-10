@@ -1,0 +1,54 @@
+body{
+    background-color: gray;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    height: 250px;
+    width: 350px;
+    border-radius: 15px;
+    margin: 10px;
+}
+ul li {
+    display: inline;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 1px 5px;
+    margin: 10px;
+}
+h1{
+    margin: 10px;
+    padding: 0 12px;
+}
+p{
+    color: rgb(114, 111, 111);
+    margin: 10px;
+    padding: 0 12px;
+    text-align: left;
+}
+.parent{
+    border: 2px solid black;
+    width: 370px;
+    height: 550px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+.button{
+    text-align: center;
+}
+.button button{
+    margin: 5px;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: rgb(162, 212, 241);
+    color: blue;
+    border: none;
+}
+
+.button button:hover{
+    color: aqua;
+    background-color: rgb(171, 171, 223);
+}
