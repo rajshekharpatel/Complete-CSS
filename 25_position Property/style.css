@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    border: 2px solid black;
+    width: 70vw;
+    height: 15vh;
+    margin: 5px;
+    padding: 5px;
+}
+.box1{
+    background-color: aqua;
+    position: absolute;
+    top: 8px;
+    left: 100px; 
+    /* position: sticky;
+    top: 0px;
+    height: 100px;
+    width: 90%;
+    margin: 0;padding: 0; */
+}
+.box2{
+    background-color: aquamarine;
+    /* position: relative;
+    top: 45px;
+    left: 60px; */
+}
+.box3{
+    background-color: bisque;
+    /* position: fixed;
+    bottom:  130px;
+    left: 20vw; */
+}
+.box4{
+    background-color: brown;
+}
+.parent{
+    border: 3px solid blue;
+    margin: 34px;
+    padding: 3px;
+}
