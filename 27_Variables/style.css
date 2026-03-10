@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color: rgb(255, 0, 247);
+    --seccolor: rgb(233, 170, 246);
+}
+.nav{
+    background-color: var(--color)
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    padding: 20px;
+}
+ul li:first-child{
+    --color: rgb(211, 77, 70);
+    background-color: var(--color);
+}
+.container{
+    background-color: var(--seccolor)
+}
