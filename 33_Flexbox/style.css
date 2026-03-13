@@ -1,0 +1,21 @@
+.container{
+    border: 2px solid red;
+    display: flex;
+    height: 80vh;
+    /* justify-content: center; */
+    align-items: center;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 15px 20px;
+
+}
+
+.item{
+    /* flex-grow: 1; */
+    height: 62px;
+    width: 62px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    /* margin: 10px; */
+}
