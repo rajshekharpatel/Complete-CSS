@@ -1,0 +1,23 @@
+.box{
+    height: 80px;
+    width: 80px;
+    background-color: aqua;
+    border: 2px solid black;
+    transform: rotate(45deg);
+    transform-origin: 0 0;
+    /* transform: rotate(0.5turn); */
+    /* transform: scale(2); */
+    /* transform: scaleX(2); */
+    /* transform: skew(45deg); */
+    /* transform: translate(100%); */
+    /* one more one of the best thing is you can use it in one time  */
+    /* transform: translateX(150%) translateY(150%) skew(45deg); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 80vh;
+    width: 90vw;
+    border: 2px solid blue;
+}
